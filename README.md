@@ -10,4 +10,12 @@ https://t.me/DigitalMiners777
 
 # TERMUX COMMANDS PASTE THESE COMMANDS ON TRRMUX
 
-git clone 
+pkg update && pkg upgrade -y
+
+git clone https://github.com/DigitalMiners777/Duckmyduck.git
+
+cd Duckmyduck
+
+nano query.txt
+
+python main.py
